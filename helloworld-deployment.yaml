@@ -12,7 +12,7 @@ spec:
       labels:
         app: helloworld
      spec:
-      containers:
+       containers:
         - name: k8s-demo
           image: arjunachari12/k8s-demo
           ports:
