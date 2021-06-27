@@ -6,16 +6,17 @@ metadata:
     app: helloworld
 spec:
   replicas: 4
-  selector: 
+  selector:
     matchLabels:
       app: helloworld
-   template:
+  template:
     metadata:
-      app: helloworld
+      labels:
+        app: helloworld
     spec:
       containers:
-      - name k8s-demo
+      - name: k8s-demo
         image: arjunachari12/k8s-demo
         ports:
         - name: nodejs-port
-        containerPort: 3000
+          containerPort: 3000
