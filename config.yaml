@@ -4,7 +4,7 @@ metadata:
   name: pod1
 data:
   data1: 761
-  data2: value"
+  data2: "value"
   data3: 
     key1=1
     key2=3
