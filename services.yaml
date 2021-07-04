@@ -4,9 +4,9 @@ metadata:
   name: 1my-service
 spec:
   port:
-   - port: 80
-     targetPort: nodejs-ports
+   - ports: 8081
+     targetPort: nodejs-port
      protocol: TCP
-  selectors:
+  selector:
     app: myapp
   type: mytype
