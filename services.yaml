@@ -5,8 +5,8 @@ metadata:
 spec:
   ports
    - port: : 80
-    targetPort: nodejs-ports
-    protocol: TCP
+     targetPort: nodejs-ports
+     protocol: TCP
   selectors:
     app: myapp
   type: LoadBalancer
