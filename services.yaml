@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: 1my-service
 spec:
-  port:
+  ports:
    - ports: 8081
      targetPort: nodejs-port
      protocol: TCP
